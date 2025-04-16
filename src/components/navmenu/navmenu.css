@@ -1,0 +1,52 @@
+.navmenu{
+    box-shadow: 0 1px 4px 0 #0000001a;
+    margin: 0 0 4px;
+    display: flex;
+    padding: 5px 2rem;
+    text-transform: uppercase;
+}
+
+.menu-heading {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 47, 52, 1);
+   
+    
+  
+}
+.menu-heading button{
+    background-color: transparent;
+    border: none
+}
+.menu-heading svg{
+    height: 20px;
+    width: 20px;
+}
+.sub-menus ul{
+    display: flex;
+}
+.sub-menus ul li{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: none;
+    margin: 0 1rem;
+}
+.box{
+    height: 280px;
+    background-color: rgba(248, 249, 250, 1);
+}
+
+
+
+@media screen and (max-width:800px){
+    .navmenu{
+        display: none;
+    }
+    .box{
+        height:200px;
+    }
+}
